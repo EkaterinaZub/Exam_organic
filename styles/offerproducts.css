@@ -1,0 +1,43 @@
+
+
+.offerProduct__title{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.title__sections{
+    margin-left: 20px;
+}
+
+.offerProducts {
+    height: 1060px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #274C5B;
+}
+
+.testimonial__header-color{
+    color: #FFFFFF;
+}
+
+.button__offerProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    width: 267px;
+    height: 82px;
+    background-color: #EFD372;
+    border-radius: 16px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 33px;
+}
+
+.button__circle__offerproducts {
+    left: 250px;
+   
+}
