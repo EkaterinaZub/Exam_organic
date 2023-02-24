@@ -2,7 +2,7 @@
 
 .testimonial{
     height: 1248px;
-    background-image: url(../images/cinnamon.png);
+    background-image: url(../images/cinnamon.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -1,0 +1,42 @@
+
+
+.oranges{
+    width: 1380px;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    background-image: url(../images/oranges.jpg);
+    margin: 30px auto;
+    
+}
+
+.oranges__title{
+    width: 322px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.oranges__email{
+    display: flex;
+}
+.oranges__input {
+    width: 315px;
+    height: 82px;
+    border-radius: 16px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.oranges__button {
+    display: flex;
+    align-items: center;
+   position: relative;
+    margin-left: 10px;
+}
