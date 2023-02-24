@@ -1,0 +1,44 @@
+
+
+.farm{
+    
+    display: flex;
+    flex-direction: row;
+   position: relative;
+
+}
+
+.farm__sections{
+width: 720px;
+    height: 623px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   position: absolute;
+   left: 660px;
+   top: 40px;
+    border-radius: 30px 0px 0px 30px;
+    padding-left: 60px;
+}
+
+.testimonial__header--weight{
+    width: 301px;
+    margin-bottom: 30px;
+}
+.farm__title{
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#274C5B;
+    margin-bottom: 5px;
+}
+
+.farm__text{
+    width: 620px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #525C60;
+    margin-bottom: 10px;
+}
