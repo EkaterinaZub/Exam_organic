@@ -1,0 +1,143 @@
+.products{
+    margin-top: 126px;
+    height: 1381px;
+}
+.products__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products__products{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: #274C5B;
+    font-weight: 700;
+    
+}
+
+
+
+.products__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+   
+    /* padding: 30px 30px 20px 30px;
+     */
+}
+
+.cards__variety{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #274C5B;
+    width: 118px;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 30px;
+  
+}
+
+.card__products{
+    display: flex;
+    width: 447px;
+    flex-direction: column;
+    background-color: #F9F8F8;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.cards__img{
+    width: 387px;
+    height: 378px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card__title{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #274C5B;
+    height: 46px;
+    width: 387px;
+    border-bottom: 1px solid #B8B8B8;
+  
+    margin-left: 30px;
+}
+
+.card__price{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    
+    
+}
+
+.price__lineThrough{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #B8B8B8;
+    text-decoration: line-through;
+    
+    margin-left: 30px;
+}
+
+.price{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #274C5B;
+    margin-left: 10px;
+}
+.card__stars {
+	overflow: hidden;
+	width: 85px;
+	margin-left: 80px;
+}
+.card__stars:not(:checked) > input {
+	display: none;
+}
+.card__stars:not(:checked) > label {
+	float: right;
+	/* width: 42px; */
+	padding: 0;
+	cursor: pointer;
+	font-size: 18px;
+	/* line-height: 32px; */
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.card__stars:not(:checked) > label:before {
+	content: '★';
+}
+.card__stars > input:checked ~ label {
+	color: #FFA858;
+	text-shadow: 1px 1px #c60;
+}
+.card__stars:not(:checked) > label:hover,
+.card__stars:not(:checked) > label:hover ~ label {
+	color: #FFA858;
+}
+.card__stars > input:checked + label:hover,
+.card__stars > input:checked + label:hover ~ label,
+.card__stars > input:checked ~ label:hover,
+.card__stars > input:checked ~ label:hover ~ label,
+.card__stars > label:hover ~ input:checked ~ label {
+	color: #FFA858;
+	text-shadow: 1px 1px #FFA858;
+}
+.card__stars > label:active {
+	position: relative;
+}

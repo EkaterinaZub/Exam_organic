@@ -15,15 +15,16 @@
     justify-content: center;
 }
 
-.offer__greetings{
+/* .offer__greetings{
     font-size: 36px;
     font-family: 'Yellowtail', cursive;
     padding-left: 55px;
     
-}
+} */
 
 .offer__greetings-color{
     color: #FFFFFF;
+    padding-left: 55px;
 }
 
 .offer__souptext{
@@ -45,9 +46,11 @@
     flex-direction: column;
     justify-content: center;
 }
-.offer__apricots--color {
-    color:  #7EB693;
+
+.section__title--padding{
+    padding-left: 55px;
 }
+
 
 .offer__apricotstext{
     font-size: 40px;
