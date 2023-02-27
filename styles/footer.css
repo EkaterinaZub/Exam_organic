@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     height: 369px;
+    margin-top: 56px;
 }
 
 .footer__menu{

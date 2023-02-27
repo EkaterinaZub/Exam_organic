@@ -94,3 +94,17 @@ padding-left: 20px;
 .button__circle--left{
     left: 150px;
 }
+
+@media (max-width:1440px) {
+    .citruses{
+        background-size: 100% 100%;
+    }
+   
+    .citruses__img {
+
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+
+}
