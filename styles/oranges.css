@@ -40,3 +40,50 @@
    position: relative;
     margin-left: 10px;
 }
+
+@media (max-width:1380px) {
+    
+    
+    .oranges{
+        width: 100%;;
+    }
+    .oranges__input {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width:898px) {
+    .oranges__input{
+        margin: 0 10px;
+    }
+    
+    .oranges{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width:640px) {
+    
+    
+    .oranges{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:490px) {
+    
+    .oranges__title{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .oranges__email{
+        flex-wrap: wrap;
+    }
+
+    .oranges__button {
+        margin-top: 20px;
+    }
+}

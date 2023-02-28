@@ -29,7 +29,7 @@ flex-direction: column;
 }
 
 .aboutUs__text{
-    width: 670px;
+    width: 100%;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     line-height: 32.4px;
@@ -100,11 +100,63 @@ padding-left: 20px;
         background-size: 100% 100%;
     }
    
-    .citruses__img {
+    /* .citruses__img {
 
         background-size: 100% 100%;
         background-repeat: no-repeat;
 
-    }
+    } */
 
 }
+
+@media (max-width:1319px) {
+    .citruses{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+   
+    
+}
+
+@media (max-width:1319px) {
+    .aboutUs__text{
+        width: 670px;}
+       }
+
+ @media (max-width:690px) {   
+    .citruses__img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .aboutUs__text{
+        width: 100%;}
+       
+ }  
+
+ @media (max-width:675px) {  
+
+    .citruses__img {
+        display: none;
+    }
+
+    .content__aboutUs {
+        margin-left: 20px;
+        }
+
+    .aboutUs__title{
+        width: 100%;
+        height: 100%;}
+
+        .content__standards{
+            margin-left: 20px;
+        }
+
+        .standards {
+           
+            width: 100%;
+            height: 100%;
+           
+        }
+    
+ }  

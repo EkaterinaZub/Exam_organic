@@ -60,3 +60,23 @@ transform: scale(1.2);
     align-items: center;
 }
 
+@media (max-width:1200px) {
+    
+    
+    .food{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .food__juice{
+        margin-top: 20px;
+    }
+    .food__organic{
+        margin-top: 20px;
+    }
+
+    .food__cookies{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+

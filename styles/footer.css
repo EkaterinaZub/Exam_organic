@@ -45,7 +45,7 @@
 
 .footer__img{
     width: 200px;
-    height: 56px;
+    /* height: 56px; */
 }
 
 .logo__content{
@@ -90,4 +90,48 @@
 
 .menu__content--margin {
     margin-top: 24px;
+}
+
+
+
+.maps{
+    display: flex;
+    width: 100%;
+        height: 100%;
+}
+
+@media (max-width:1015px) {
+    .footer{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .logo__content{
+        width: 400px;
+    }
+    
+    
+}
+
+@media (max-width:785px) {
+    .footer__pages{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width:630px) {
+    .footer{
+        margin: 0px;
+    }
+    
+
+    .footer__logo{
+        margin-top: 30px;
+       
+    }
+    .logo__content{
+        width: 300px;
+    }
+    
 }

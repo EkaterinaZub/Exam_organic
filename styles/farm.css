@@ -9,7 +9,7 @@
 }
 
 .farm__sections{
-width: 720px;
+/* width: 720px; */
     height: 623px;
     background-color: #FFFFFF;
     display: flex;
@@ -41,4 +41,36 @@ width: 720px;
     font-weight: 400;
     color: #525C60;
     margin-bottom: 10px;
+}
+
+@media (max-width:1440px) {
+    
+    .farm__sections{
+        
+        left: 45.9%;
+        top: 2.8%;
+    }
+   
+    
+}
+@media (max-width:1273px) {
+    
+    .farm__text{
+        width: 100%;
+              
+    }
+      
+}
+
+@media (max-width:726px) {
+    
+    
+    .farm__img {
+        display: none;
+    }
+    .farm__sections{
+        position: static;
+        padding-left: 0px;
+        margin-left: 20px;
+    }
 }

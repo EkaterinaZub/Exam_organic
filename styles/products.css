@@ -141,3 +141,24 @@
 .card__stars > label:active {
 	position: relative;
 }
+
+@media (max-width:1357px) {
+    .products{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        height: 100%;
+    }
+
+    .cards__img{
+       width: 100%;
+        height: 100%;
+    margin-left: 0;
+   
+}
+
+        .card__title{
+            
+            height: 100%;
+            
+        }
+}
