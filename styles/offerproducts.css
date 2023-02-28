@@ -1,12 +1,10 @@
-
-
-.offerProduct__title{
-display: flex;
-justify-content: space-between;
-margin-bottom: 20px;
+.offerProduct__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.title__sections{
+.title__sections {
     margin-left: 20px;
 }
 
@@ -18,11 +16,11 @@ margin-bottom: 20px;
     background-color: #274C5B;
 }
 
-.testimonial__header-color{
+.testimonial__header-color {
     color: #FFFFFF;
 }
 
-.button__offerProducts{
+.button__offerProducts {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,11 +37,10 @@ margin-bottom: 20px;
 
 .button__circle__offerproducts {
     left: 250px;
-   
 }
 
 @media (max-width:1357px) {
-    .offerProducts{
+    .offerProducts {
         height: 100%;
         padding-top: 100px;
         padding-bottom: 100px;
@@ -52,8 +49,8 @@ margin-bottom: 20px;
 }
 
 @media (max-width:760px) {
-    .offerProduct__title{
+    .offerProduct__title {
         flex-wrap: wrap;
-        }
+    }
 
 }

@@ -1,27 +1,25 @@
-
-.footer{
+.footer {
     display: flex;
     justify-content: space-evenly;
     height: 369px;
     margin-top: 56px;
 }
 
-.footer__menu{
+.footer__menu {
     display: flex;
     flex-direction: column;
-  
     text-align: end;
 }
 
 
-.footer__title{
+.footer__title {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #274C5B;
 }
 
-.menu__contact{
+.menu__contact {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -29,50 +27,48 @@
     margin-top: 35px;
 }
 
-.menu__content{
+.menu__content {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #525C60;
 }
 
-.footer__logo{
+.footer__logo {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
 }
 
-.footer__img{
+.footer__img {
     width: 200px;
-    /* height: 56px; */
-}
+  }
 
-.logo__content{
+.logo__content {
     width: 567px;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-   text-align: center;
+    text-align: center;
     color: #525C60;
     margin-top: 44px;
     margin-bottom: 50px;
 }
 
-.footer__networks{
+.footer__networks {
     display: flex;
     justify-content: space-between;
-
     width: 300px;
 }
 
-.menu__networks{
+.menu__networks {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60px;
     height: 60px;
-   background-color: #EFF6F1;
+    background-color: #EFF6F1;
     border-radius: 50%;
 }
 
@@ -81,11 +77,10 @@
     height: 19px;
 }
 
-.footer__pages{
+.footer__pages {
     display: flex;
     flex-direction: column;
-   
-   align-items: start;
+    align-items: start;
 }
 
 .menu__content--margin {
@@ -93,45 +88,46 @@
 }
 
 
-
-.maps{
+.maps {
     display: flex;
     width: 100%;
-        height: 100%;
+    height: 100%;
 }
 
 @media (max-width:1015px) {
-    .footer{
+    .footer {
         flex-wrap: wrap;
         height: 100%;
     }
-    .logo__content{
+
+    .logo__content {
         width: 400px;
     }
-    
-    
+
+
 }
 
 @media (max-width:785px) {
-    .footer__pages{
+    .footer__pages {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
+
 }
 
 @media (max-width:630px) {
-    .footer{
+    .footer {
         margin: 0px;
     }
-    
 
-    .footer__logo{
+
+    .footer__logo {
         margin-top: 30px;
-       
+
     }
-    .logo__content{
+
+    .logo__content {
         width: 300px;
     }
-    
+
 }

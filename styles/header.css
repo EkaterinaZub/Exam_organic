@@ -1,12 +1,10 @@
-
-
-.header{
+.header {
     height: 152px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
 }
 
 
@@ -15,12 +13,11 @@ padding: 0 30px;
     height: 56px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin-right: 180px;
-   /* padding-right: 180px; */
-}
+  }
 
 .navbar_item {
     font-size: 19px;
@@ -30,8 +27,8 @@ padding: 0 30px;
     padding: 0 20px;
 }
 
-.navbar_item:hover{
-    color:  #7EB693;
+.navbar_item:hover {
+    color: #7EB693;
 }
 
 .header__button {
@@ -41,24 +38,24 @@ padding: 0 30px;
     height: 70px;
     border: 1px solid #D4D4D4;
     border-radius: 33px;
-    
+
 }
 
-.header__basket{
-width: 56px;
-height: 56px;
-margin-top: 7px;
+.header__basket {
+    width: 56px;
+    height: 56px;
+    margin-top: 7px;
 }
 
-.header__cart{
+.header__cart {
     display: flex;
     align-items: center;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
- 
+
 }
 
-.navbar__hamburger{
+.navbar__hamburger {
     display: none;
     position: relative;
     width: 30px;
@@ -85,52 +82,53 @@ margin-top: 7px;
     position: absolute;
 }
 
-#navbar__hamburger{
+#navbar__hamburger {
     display: none;
 }
 
 @media (max-width:1134px) {
 
 
-    .header{
+    .header {
         justify-content: space-between;
-        
-        
-     }
-     .navbar__hamburger{
-         display: inline-block;
-         
-     
-     }
- 
-         .navbar {
-             display: none;
-             position: absolute;
-             background-color: aliceblue;
-             width: 30%;
-             left: 150px;
-             top: 100px;
-             align-items: center;
- 
-             
- 
-         }
- 
-         #navbar__hamburger:checked~.navbar {
-             display: flex;
-             flex-direction: column;
-         }
 
-         .navbar_item {
-            padding: 10px;
-         }
+
+    }
+
+    .navbar__hamburger {
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        background-color: aliceblue;
+        width: 30%;
+        left: 150px;
+        top: 100px;
+        align-items: center;
+
+
+
+    }
+
+    #navbar__hamburger:checked~.navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar_item {
+        padding: 10px;
+    }
 }
 
 @media (max-width:438px) {
-    
+
     .header {
         flex-wrap: wrap;
     }
 
-    
+
 }

@@ -1,37 +1,32 @@
-.products{
+.products {
     margin-top: 126px;
     height: 1381px;
 }
-.products__header{
+
+.products__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.products__products{
+.products__products {
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
     color: #274C5B;
     font-weight: 700;
-    
 }
 
 
 
-.products__card{
+.products__card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-   
-    
-   
-    /* padding: 30px 30px 20px 30px;
-     */
-}
+    }
 
-.cards__variety{
+.cards__variety {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +40,10 @@
     color: #FFFFFF;
     margin-top: 30px;
     margin-left: 30px;
-  
+
 }
 
-.card__products{
+.card__products {
     display: flex;
     width: 447px;
     flex-direction: column;
@@ -57,14 +52,14 @@
     margin-top: 20px;
 }
 
-.cards__img{
+.cards__img {
     width: 387px;
     height: 378px;
     margin-top: 30px;
     margin-left: 30px;
 }
 
-.card__title{
+.card__title {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -72,93 +67,105 @@
     height: 46px;
     width: 387px;
     border-bottom: 1px solid #B8B8B8;
-  
     margin-left: 30px;
 }
 
-.card__price{
+.card__price {
     display: flex;
     justify-content: start;
     margin-bottom: 20px;
-    
-    
 }
 
-.price__lineThrough{
+.price__lineThrough {
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #B8B8B8;
     text-decoration: line-through;
-    
+
     margin-left: 30px;
 }
 
-.price{
+.price {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #274C5B;
     margin-left: 10px;
 }
+
 .card__stars {
-	overflow: hidden;
-	width: 85px;
-	margin-left: 80px;
+    overflow: hidden;
+    width: 85px;
+    margin-left: 80px;
 }
-.card__stars:not(:checked) > input {
-	display: none;
+
+.card__stars:not(:checked)>input {
+    display: none;
 }
-.card__stars:not(:checked) > label {
-	float: right;
-	/* width: 42px; */
-	padding: 0;
-	cursor: pointer;
-	font-size: 18px;
-	/* line-height: 32px; */
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
+
+.card__stars:not(:checked)>label {
+    float: right;
+    /* width: 42px; */
+    padding: 0;
+    cursor: pointer;
+    font-size: 18px;
+    /* line-height: 32px; */
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
 }
-.card__stars:not(:checked) > label:before {
-	content: '★';
+
+.card__stars:not(:checked)>label:before {
+    content: '★';
 }
-.card__stars > input:checked ~ label {
-	color: #FFA858;
-	text-shadow: 1px 1px #c60;
+
+.card__stars>input:checked~label {
+    color: #FFA858;
+    text-shadow: 1px 1px #c60;
 }
-.card__stars:not(:checked) > label:hover,
-.card__stars:not(:checked) > label:hover ~ label {
-	color: #FFA858;
+
+.card__stars:not(:checked)>label:hover,
+.card__stars:not(:checked)>label:hover~label {
+    color: #FFA858;
 }
-.card__stars > input:checked + label:hover,
-.card__stars > input:checked + label:hover ~ label,
-.card__stars > input:checked ~ label:hover,
-.card__stars > input:checked ~ label:hover ~ label,
-.card__stars > label:hover ~ input:checked ~ label {
-	color: #FFA858;
-	text-shadow: 1px 1px #FFA858;
+
+.card__stars>input:checked+label:hover,
+.card__stars>input:checked+label:hover~label,
+.card__stars>input:checked~label:hover,
+.card__stars>input:checked~label:hover~label,
+.card__stars>label:hover~input:checked~label {
+    color: #FFA858;
+    text-shadow: 1px 1px #FFA858;
 }
-.card__stars > label:active {
-	position: relative;
+
+.card__stars>label:active {
+    position: relative;
 }
 
 @media (max-width:1357px) {
-    .products{
+    .products {
         margin-top: 80px;
         margin-bottom: 30px;
         height: 100%;
     }
 
-    .cards__img{
-       width: 100%;
+    .cards__img {
+        width: 100%;
+        min-width: 320px;
         height: 100%;
-    margin-left: 0;
-   
+        margin-left: 0;
+    }
+
+    .card__title {
+        display: flex;
+        width: 300px;
+        height: 100%;
+        justify-content: space-between;
+    }
 }
 
-        .card__title{
-            
-            height: 100%;
-            
-        }
+@media (max-width:397px) {
+    .card__stars {
+        margin-left: 20px;
+    }
 }

@@ -1,6 +1,4 @@
-
-
-.oranges{
+.oranges {
     width: 1380px;
     height: 320px;
     display: flex;
@@ -9,10 +7,10 @@
     border-radius: 30px;
     background-image: url(../images/oranges.jpg);
     margin: 30px auto;
-    
+
 }
 
-.oranges__title{
+.oranges__title {
     width: 322px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -20,9 +18,10 @@
     color: #FFFFFF;
 }
 
-.oranges__email{
+.oranges__email {
     display: flex;
 }
+
 .oranges__input {
     width: 315px;
     height: 82px;
@@ -37,16 +36,18 @@
 .oranges__button {
     display: flex;
     align-items: center;
-   position: relative;
+    position: relative;
     margin-left: 10px;
 }
 
 @media (max-width:1380px) {
-    
-    
-    .oranges{
-        width: 100%;;
+
+
+    .oranges {
+        width: 100%;
+        ;
     }
+
     .oranges__input {
         width: 100%;
         padding-left: 0px;
@@ -55,31 +56,32 @@
 }
 
 @media (max-width:898px) {
-    .oranges__input{
+    .oranges__input {
         margin: 0 10px;
     }
-    
-    .oranges{
+
+    .oranges {
         flex-wrap: wrap;
     }
-    
+
 }
 
 @media (max-width:640px) {
-    
-    
-    .oranges{
+
+
+    .oranges {
         flex-wrap: wrap;
     }
 }
+
 @media (max-width:490px) {
-    
-    .oranges__title{
+
+    .oranges__title {
         font-size: 35px;
         text-align: center;
     }
-    
-    .oranges__email{
+
+    .oranges__email {
         flex-wrap: wrap;
     }
 
